@@ -1,0 +1,22 @@
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "OCR-A";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "OCR-A";
+  src: url("/fonts/OCR-ABT.ttf") format("truetype"); 
+  font-style: normal;
+  font-weight: normal;
+}

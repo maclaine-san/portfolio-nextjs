@@ -1,0 +1,77 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #22212D;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: auto;
+  background-color: #22212D;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #22212D;
+  color: white;
+}
+
+.herolinks {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 30px;
+  justify-content: flex-end;
+}
+
+.herolink {
+  margin-left: 53px;
+  cursor: pointer;
+  font-family: 'OCR-A';
+}
+
+.typewriter {
+  color: #FFFF56;
+  font-size: 22px;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(15, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #1A1827;
+  color: white;
+  padding-left: 362px;
+  padding-right: 374px;
+  padding-top: 123px;
+}
+
